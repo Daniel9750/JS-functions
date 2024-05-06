@@ -4,7 +4,7 @@
 
 <h2>JavaScript Function Example</h2>
 <p id="result1"></p>
-<p id="demo"></p>
+<p>You can redefine the 'y' in the parameters</p>
 <p id="result2"></p>
 
 <script>
@@ -15,7 +15,7 @@ const multiplication = function multiplication(x, y = 10) {
 
 document.getElementById("result1").innerHTML = multiplication(5);
 
-document.getElementById("demo").innerHTML = "\nYou can redefine the 'y' in the parameters\n"
+// Redefine the 'y' to '4':
 
 document.getElementById("result2").innerHTML = multiplication(5, 4);
 
