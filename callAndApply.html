@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Methods call() and apply()</h2>
+
+<p>The methods 'call()' and 'apply()' do basically the same. The only difference is:</p>
+
+
+
+<p>- The 'call()' method takes arguments separately.</p>
+
+<p>- The 'apply()' method takes arguments as an array.</p>
+
+<p>Here's an example using the 'max()' method:</p>
+
+
+<p id="result1"></p>
+<p id="result2"></p>
+
+<script>
+document.getElementById("result1").innerHTML = Math.max.apply(null, [1,2,3])
+
+document.getElementById("result2").innerHTML = Math.max.call(4, 5, 6); 
+</script>
+
+</body>
+</html>
